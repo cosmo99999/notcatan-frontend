@@ -55,12 +55,12 @@ export function InGame({ onCallGlobalFunction, onSendOnlyGlobalFunction }: inGam
     setHighlighted(selected);
   }
   function buyItem(pos: Edge | Vertice | null) {
-    let newGame: Game;
+    let newGame: Game = game!;
     if (!pos) {
       onCallGlobalFunction(Buy, [undefined, Purchase.DevCard, me, game!]);
     } else {
       if (game!.gameState == GameState.Start) {
-        const structures = getAllStructuresByPlayer(me, game!);
+        const structures = getAllStructuresByPlayer(me, newGame!);
         if (structures.length == 0 || structures.length == 2) {
           newGame = StartingSettlement(pos.id, me, game!);
           onSendOnlyGlobalFunction(StartingSettlement, [pos.id, me, game]);
@@ -69,7 +69,7 @@ export function InGame({ onCallGlobalFunction, onSendOnlyGlobalFunction }: inGam
           setHighlighted(selected);
           setGame(newGame);
         } else {
-          onCallGlobalFunction(RoadBuilding, [pos.id, me, game]);
+          onCallGlobalFunction(RoadBuilding, [pos.id, me, newGame]);
         }
       }
       else if (game?.gameState == GameState.RoadBuilding) {
