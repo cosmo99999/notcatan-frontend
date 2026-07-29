@@ -50,15 +50,18 @@ export function GameWrapper() {
       const reply: ApiInGameReply = await GET(`/action/${actionCounter.current}/player/${me}`);
       if (reply.update) {
         actionCounter.current = reply.latestId;
-        let newGame = game;
-        reply.actions.forEach((a) => {
-          const f = GlobalActions.find(fu => fu.name == a.func)! as ((...args: any[]) => any);
-          newGame = f(...a.args, newGame);
-          if (newGame?.gameState == 0) {
-            newGame = GameStartHighlightCheck(newGame);
-          }
-        })
-        setGame(newGame!);
+        if (reply.actions.length > 0) {
+
+          let newGame = game;
+          reply.actions.forEach((a) => {
+            const f = GlobalActions.find(fu => fu.name == a.func)! as ((...args: any[]) => any);
+            newGame = f(...a.args, newGame);
+            if (newGame?.gameState == 0) {
+              newGame = GameStartHighlightCheck(newGame);
+            }
+          })
+          setGame(newGame!);
+        }
       }
     }
   }
