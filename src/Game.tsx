@@ -141,7 +141,7 @@ export function GameWrapper() {
       func: f.name,
       args: [...args],
     }
-    await POST(`/action/${me}`, msg);
+    POST(`/action/${me}`, msg);
   }
 
   return (
