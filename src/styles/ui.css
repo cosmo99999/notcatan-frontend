@@ -1,0 +1,198 @@
+.playerCard {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 20px 0px 0px 10px;
+}
+
+.colourIcon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.resource {
+  width: 90px;
+  height: 130px;
+  border: 1px solid black;
+}
+
+.resourceGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.devCardNonPlayable {
+  width: 90px;
+  height: 130px;
+  border: 1px solid black;
+  background: tan;
+}
+
+.devCardPlayable {
+  width: 90px;
+  height: 130px;
+  border: 1px solid blue;
+  background: tan;
+  cursor: pointer;
+}
+
+.devCardPlayable:hover {
+  border: 3px solid blue;
+}
+
+
+.devcardPlayed {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background: tan;
+}
+
+.devcardGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.buyMenuGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.buyMenuItem {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: gray;
+  cursor: pointer;
+}
+
+.buyMenuButton {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: tan;
+  cursor: pointer;
+}
+
+.tradeMenuButton {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: tan;
+  cursor: pointer;
+}
+
+.robPlayerButton {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.liveTradeButton {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: tan;
+  cursor: pointer;
+}
+
+.tradeMenuResource {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: gray;
+  cursor: pointer;
+}
+
+.bankMenuTradeOption {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.rollButton {
+  display: flex;
+  border-radius: 10px;
+  background: tan;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.discardButtons {
+  display: flex;
+  border-radius: 10px;
+  background: tan;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.currentTradeResource {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.liveTradeBox {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: tan;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+}

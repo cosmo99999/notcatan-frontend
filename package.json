@@ -1,0 +1,37 @@
+{
+  "name": "settlos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "notcatan-shared": "github:cosmo99999/not-catan-shared",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router": "^8.3.0",
+    "react-router-dom": "^7.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1"
+  },
+  "allowScripts": {
+    "github:cosmo99999/not-catan-shared#c268a7939fee0dfb2092919e8568952a549fb86b": true,
+    "github:cosmo99999/not-catan-shared#5355b32e547302ef24313600c33507cb86c27f96": true,
+    "github:cosmo99999/not-catan-shared": true
+  },
+  "overrides": {
+    "react-router": "$react-router"
+  }
+}
