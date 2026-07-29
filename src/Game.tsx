@@ -87,6 +87,8 @@ export function GameWrapper() {
       } else {
         setLogIn(true);
       }
+    } else {
+      setLogIn(true);
     }
   }
   function loginSuccess() {
