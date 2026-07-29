@@ -4,7 +4,7 @@ import { PlayerCard } from "../components/PlayerCard";
 import { useAppContext } from "../App";
 import { DevCardGroup, ResourceCardGroup } from "../components/ResourceAndDevCard";
 import { Dice } from "../components/Dice";
-import { AcceptTrade, Buy, CancelTrade, CreateTrade, DevCardType, Discard, EndEventGameState, EndTurn, GameState, getAllStructuresByPlayer, getPlayer, HandleDiceRoll, MakeBankTrade, Monopoly, MoveRobber, PlayDevCard, Purchase, purchaseToStructureType, RoadBuilding, Rob, StartingSettlement, StructureType, structureTypeToPurchase, YearOfPlenty, type Edge, type Game, type Vertice } from "notcatan-shared";
+import { AcceptTrade, Buy, CancelTrade, CreateTrade, DevCardType, Discard, EndEventGameState, EndTurn, GameState, getAllStructuresByPlayer, getPlayer, HandleDiceRoll, MakeBankTrade, Monopoly, MoveRobber, PlayDevCard, Purchase, purchaseToStructureType, RoadBuilding, Rob, StartingSettlement, StructureType, structureTypeToPurchase, YearOfPlenty, type Edge, type Game, type Vertice } from "@cosmo99999/notcatan-shared";
 import { Actions } from "../components/Actions.tsx";
 import { ReselectRoadsForRoadBuilding, HighlightBuildLocations, selectTilesForRobber, deselectTilesForRobber } from "../methods.ts";
 

@@ -1,5 +1,5 @@
-import { Colour, type Edge, getPort, getStructure, getTile, getVertice, type Player, type Port, Resource, type Structure, StructureType, type Tile, type Vertice } from 'notcatan-shared';
-import type { Game } from 'notcatan-shared'
+import { Colour, type Edge, getPort, getStructure, getTile, getVertice, type Player, Resource, type Structure, StructureType, type Tile, type Vertice } from "@cosmo99999/notcatan-shared";
+import type { Game } from '@cosmo99999/notcatan-shared';
 import '../styles/board.css'
 import { useAppContext } from "../App";
 

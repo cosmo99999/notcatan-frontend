@@ -1,6 +1,6 @@
 import { Board } from "../components/Board";
 import { useApi } from "../useApi";
-import { getPlayer } from "notcatan-shared";
+import { getPlayer } from "@cosmo99999/notcatan-shared";
 import { PlayerCard } from "../components/PlayerCard";
 import { useAppContext } from "../App";
 

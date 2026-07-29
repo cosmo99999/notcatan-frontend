@@ -1,4 +1,4 @@
-import { CanAfford, GameState, getPlayer, getPlayersToRob, Purchase, Resource, type Player, type Trade } from "notcatan-shared";
+import { CanAfford, GameState, getPlayer, getPlayersToRob, Purchase, Resource, type Player, type Trade } from "@cosmo99999/notcatan-shared";
 import { useAppContext } from "../App";
 import { BuyMenu } from "./BuyMenu";
 import { useEffect, useState } from "react";

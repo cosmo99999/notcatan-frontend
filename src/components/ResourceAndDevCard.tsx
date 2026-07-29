@@ -1,4 +1,4 @@
-import { DevCardType, GameState, getPlayer, Resource, type DevCard } from 'notcatan-shared';
+import { DevCardType, GameState, getPlayer, Resource, type DevCard } from '@cosmo99999/notcatan-shared';
 import '../styles/ui.css';
 import { getResourceColour } from './Board';
 import { useAppContext } from '../App';

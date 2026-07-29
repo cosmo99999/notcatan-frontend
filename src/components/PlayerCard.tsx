@@ -1,4 +1,4 @@
-import type { Player } from 'notcatan-shared'
+import type { Player } from "@cosmo99999/notcatan-shared";
 import '../styles/ui.css';
 import { getPlayerColour } from './Board';
 import { DevCardGroup } from './ResourceAndDevCard';

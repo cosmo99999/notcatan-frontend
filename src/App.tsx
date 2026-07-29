@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, type ReactNode } from 'react';
 import './App.css'
-import { StructureType, type Game } from 'notcatan-shared';
+import { StructureType, type Game } from '@cosmo99999/notcatan-shared';
 import { GameWrapper } from './Game';
 
 interface contextType {

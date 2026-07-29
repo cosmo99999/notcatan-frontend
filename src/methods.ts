@@ -1,4 +1,4 @@
-import { deselectEdges, deselectVertices, getAllStructuresByPlayer, getEdge, getEdgeAdjacentEdges, getEdgesByList, getPlayer, getPort, getStructure, getVerticesByList, StructureType, type Edge, type Game, type Player, type Vertice } from "notcatan-shared";
+import { deselectEdges, deselectVertices, getAllStructuresByPlayer, getEdge, getEdgeAdjacentEdges, getEdgesByList, getPlayer, getPort, getStructure, getVerticesByList, StructureType, type Edge, type Game, type Player, type Vertice } from "@cosmo99999/notcatan-shared";
 
 // function contains(array: number[], value: number) {
 //   if (array.some(v => v == value)) return true;

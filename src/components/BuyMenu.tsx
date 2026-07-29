@@ -1,4 +1,4 @@
-import { CanAfford, getPlayer, Purchase, purchaseToStructureType, StructureType, structureTypeToPurchase } from 'notcatan-shared';
+import { CanAfford, getPlayer, Purchase, purchaseToStructureType, StructureType, structureTypeToPurchase } from "@cosmo99999/notcatan-shared";
 import '../styles/ui.css';
 import { useAppContext } from '../App';
 

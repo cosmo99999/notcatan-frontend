@@ -4,7 +4,7 @@ import { Login } from "./screens/Login";
 import { useApi } from "./useApi";
 import { useAppContext } from "./App";
 import { Setup } from "./screens/OnLoad";
-import { deselectVertices, GameState, getAllStructuresByPlayer, getPlayer, GlobalActions, StructureType, type Game } from "notcatan-shared";
+import { deselectVertices, GameState, getAllStructuresByPlayer, getPlayer, GlobalActions, StructureType, type Game } from "@cosmo99999/notcatan-shared";
 import { HighlightBuildLocations } from "./methods";
 
 interface ApiReply {

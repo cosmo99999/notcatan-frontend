@@ -5,7 +5,7 @@ import diceFour from '../assets/diceFour.png'
 import diceFive from '../assets/diceFive.png'
 import diceSix from '../assets/diceSix.png'
 import { useEffect, useRef, useState } from 'react'
-import { getRandomInt } from 'notcatan-shared'
+import { getRandomInt } from "@cosmo99999/notcatan-shared";
 
 const dicePaths = [diceOne, diceTwo, diceThree, diceFour, diceFive, diceSix];
 interface diceArgs {
