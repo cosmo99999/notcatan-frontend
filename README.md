@@ -1,6 +1,8 @@
 # Not Settlers of Catan Frontend
 ### still unfinished
 - Built with react.
+- Client side game display
+- takes input from users and communicates over http to the server
 - Game functions declared in shared npm package
 - Most core game functionality is working
 - Still a number of minor bugs and no game won check
